@@ -1,15 +1,16 @@
+package src;
 
 class A{
     void getA(){
-        System.out.println("A method");
+        System.out.println("src.A method");
     }
 }
 class B extends A{
     void getA(){
-        System.out.println("B method");
+        System.out.println("src.B method");
     }
     void getB(){
-        System.out.println("B b method");
+        System.out.println("src.B b method");
     }
 }
 public class InheritanceEx {
