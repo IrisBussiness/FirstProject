@@ -21,7 +21,7 @@ public class LargestOfFour {
         } else if (num2>num1 && num2>num3 && num2>num4) {
             System.out.println(num2+ " is large");
         } else if (num3>num1 && num3>num2 && num3>num4) {
-            System.out.println(num3+ " is large");
+            System.out.println(num3+ " is big");
         } else {
             System.out.println(num4+ " is large");
         }
